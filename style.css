@@ -126,21 +126,29 @@ h1 h2{
     margin: auto;
 }
 
+.about-text2{
+    width: 45%; 
+    line-height: 1.2;
+    font-size: 14px;
+    text-align: start;
+}
+
+.about__img2{
+    padding-left: 40px;
+}
 
 .first-img{
     max-width: 300px;
     /* float: left; */
     /* margin-right: 3rem; */
-    /* order: 1; */
+    order: 1;
 }
 
 .second-img{
     max-width: 300px;
     /* float: right; */
     /* margin-left: 3rem; */
-    /* order: 2; */
-}
-.about-container:nth-child(even){
+    flex: 2;
     order: 2;
 }
 
